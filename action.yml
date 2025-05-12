@@ -1,9 +1,9 @@
 name: "Podcast Generator"
 author: "Nipun Perera"
 description: "Generates a feed for a podcast from a YAML file"
-  runs:
-    using: "docker"
-    image: "Dockerfile"
+runs:
+  using: "docker"
+  image: "Dockerfile"
 branding: 
   icon: "git-branch"
   color: "red"
